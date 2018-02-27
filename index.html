@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="vendors/bootstrap/dist/css/bootstrap.min.css" />
+    <!--[if lt IE 9]>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-md-center">
+        <div class="col-md-auto">
+          <h1>バイブレーション</h1>
+          <div class="form-check">
+            <button type="button" id="vibrate" class="btn btn-primary">震わす！</button>
+          </div>
+          <h1>ライト</h1>
+          <div class="form-check">
+            <button type="button" id="lightOn" class="btn btn-primary">光らす！</button>
+            <button type="button" id="lightOff" class="btn btn-primary">消す！</button>
+          </div>
+          <h1>通知</h1>
+          <div class="form-check">
+            <label for="body">メッセージ</label>
+            <input type="text" class="form-control" id="body" />
+            <button type="button" id="notify" class="btn btn-primary">送信！</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="vendors/jquery/dist/jquery.min.js"></script>
+    <script src="vendors/js-url/url.min.js"></script>
+    <script src="vendors/hifive/ejs-h5mod.js"></script>
+    <script src="vendors/hifive/h5.dev.js"></script>
+    <script src="vendors/deviceconnect/util.js"></script>
+    <script src="vendors/deviceconnect/dconnectsdk-2.2.0.js"></script>
+    <script src="javascripts/app.js"></script>
+  </body>
+</html>

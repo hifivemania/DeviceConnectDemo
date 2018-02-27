@@ -1,0 +1,23 @@
+{
+  "name": "dc-handson",
+  "authors": [
+    "Atsushi Nakatsugawa <atsushi@moongift.jp>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hifive": "^1.3.1",
+    "jquery": "^3.3.1",
+    "bootstrap": "^4.0.0",
+    "js-url": "^2.5.2"
+  }
+}
